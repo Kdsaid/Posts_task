@@ -3,6 +3,8 @@ package com.example.testapp.configs
 
 object Constants {
 
+    const val DB_NAME = "PostsDaoDB"
+    const val DB_VERSION = 1
     const val BASE_URL = "https://jsonplaceholder.typicode.com/"
     const val HEADER_CACHE_CONTROL = "Cache-Control"
     const val HEADER_PRAGMA = "Pragma"

@@ -2,8 +2,9 @@ package com.example.testapp.configs
 
 import android.app.Application
 import android.net.ConnectivityManager
+import dagger.hilt.android.HiltAndroidApp
 
-
+@HiltAndroidApp
 class AppConfig : Application() {
 
     override fun onCreate() {

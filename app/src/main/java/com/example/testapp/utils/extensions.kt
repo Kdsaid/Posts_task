@@ -3,7 +3,11 @@ package com.example.footballleagueapplication.utils
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.view.Window
+import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import android.view.animation.LayoutAnimationController
 import android.widget.ImageView
